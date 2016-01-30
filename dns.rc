@@ -1,0 +1,22 @@
+#include <windows.h>
+
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+1 VERSIONINFO
+	FILEVERSION 2,4,0,0
+{
+	BLOCK "StringFileInfo"
+	{
+		BLOCK "04090025"
+		{
+			VALUE "FileDescription", "SA-MP DNS Plugin"
+			VALUE "LegalCopyright", "Copyright © 2012 Incognito"
+			VALUE "OriginalFilename", "dns.dll"
+			VALUE "ProductName", "SA-MP DNS Plugin"
+			VALUE "ProductVersion", "v2.4"
+		}
+	}
+	BLOCK "VarFileInfo"
+	{
+		VALUE "Translation", 1033, 37
+	}
+}
