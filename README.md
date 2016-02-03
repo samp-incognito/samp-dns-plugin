@@ -1,6 +1,8 @@
 SA-MP DNS Plugin
 ================
 
+**Note:** This project is no longer under active development. It has been put here mainly for archival purposes.
+
 This plugin provides functionality for DNS lookups and reverse DNS lookups.
 
 Compilation (Windows)
