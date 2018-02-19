@@ -1,0 +1,23 @@
+{
+    "user": "samp-incognito",
+    "repo": "samp-dns-plugin",
+    "resources": [
+        {
+            "name": "^samp-dns-plugin-(.*).zip$",
+            "platform": "linux",
+            "archive": true,
+            "includes": ["pawno/include"],
+            "plugins": ["plugins/dns.so"]
+        },
+        {
+            "name": "^samp-dns-plugin-(.*).zip$",
+            "platform": "windows",
+            "archive": true,
+            "includes": ["pawno/include"],
+            "plugins": ["plugins/dns.dll"]
+        }
+    ],
+    "runtime": {
+        "plugins": ["samp-incognito/samp-dns-plugin"]
+    }
+}
